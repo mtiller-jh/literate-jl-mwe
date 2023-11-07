@@ -33,4 +33,9 @@ Stacktrace:
 ```
 
 What is strange is that running the working version actually generates a file
-`./other/sample-4.svg` so why is it reporting that this file is missing?
+`./other/sample-4.svg` so why is it reporting that this file is missing?  I even
+tried creating the directory `./docs/other` in case it was somehow reframing the
+current directory to be `./docs` but that doesn't change the error.
+
+In short, I don't understand what `Literate.jl` is complaining about in the case
+of the `./run-from-root.jl` script.  What should I be doing differently?
