@@ -1,3 +1,3 @@
 using Literate
 
-Literate.markdown("sample.jl", "."; execute=true, flavor=Literate.CommonMarkFlavor())
+Literate.markdown("sample.jl", "../other"; execute=true, flavor=Literate.CommonMarkFlavor())
